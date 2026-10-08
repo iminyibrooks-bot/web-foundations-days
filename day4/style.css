@@ -1,0 +1,61 @@
+:root {
+  --bg: #ffffff;
+  --text: #222222;
+  --card: #f3f4f6;
+  --border: #cccccc;
+  --accent: #4f46e5;
+}
+
+body.dark {
+  --bg: #111827;
+  --text: #f9fafb;
+  --card: #1f2937;
+  --border: #4b5563;
+  --accent: #818cf8;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 16px;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-top: 16px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  background: var(--card);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font: inherit;
+}
+
+button {
+  padding: 8px 14px;
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.warning {
+  color: orange;
+}
+
+.over {
+  color: red;
+  font-weight: bold;
+}
